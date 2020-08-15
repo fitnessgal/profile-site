@@ -1,0 +1,15 @@
+#square {
+    height: 800px;
+    width: 800px;
+    background: purple;
+    border: greenyellow;
+    border-width: 277px;
+    border-style: solid;
+    margin-top: 35px;
+    }
+
+    span {
+        position: absolute;
+        top: 40%;
+        left:50%;
+    }
