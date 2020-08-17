@@ -1,15 +1,27 @@
-#square {
-    height: 800px;
-    width: 800px;
-    background: purple;
-    border: greenyellow;
-    border-width: 20px;
-    border-style: solid;
-    margin-top: 35px;
-    }
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 32%;
+    border-radius: 15px;
+}
 
-    span {
-        position: absolute;
-        top: 40%;
-        left:50%;
-    }
+.column h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 2rem;
+
+}
+
+.column p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Clear floats after the columns */
+.row: after {
+    content: "";
+    display: table;
+    clear: both.;
+}
