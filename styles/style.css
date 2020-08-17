@@ -20,8 +20,23 @@
 }
 
 /* Clear floats after the columns */
-.row: after {
+.row:after {
     content: "";
     display: table;
-    clear: both.;
+    clear:both;
+}
+
+/*Responsive layout - makes the three columns stack on top of each other */
+@media screen and (max-width: 600px) {
+    .column { 
+        width: 100%;
+    }
+    .about-section p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .column p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
