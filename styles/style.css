@@ -376,6 +376,6 @@ for (let item of items) {
     }
 
     .submenu-active {
-        border-radius: 0;
+        border-radius: 5px;
     }
 }
